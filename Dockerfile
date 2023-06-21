@@ -10,5 +10,5 @@ COPY . /app
 # installs all the libraries we will need to execute the code
 RUN pip install -r requirements.txt
 
-# tell Docker the command to run inside the containergit
+# tell Docker the command to run inside the container
 CMD ["python", "./main.py"]
