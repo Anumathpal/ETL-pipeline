@@ -11,8 +11,5 @@ COPY . /app
 RUN pip install -r requirements.txt
 
 # tell Docker the command to run inside the container
-<<<<<<< HEAD
 CMD ["python", "./main.py"]
-=======
-CMD ["python", "./main.py"]
->>>>>>> d29d6ab1d8c2959053d4ecafa5b43208abb0a470
+
